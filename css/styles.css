@@ -3,7 +3,8 @@ root{
     --title-text-color: #757575;
 }
 body{
-    font-family:'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;    
     color: var(--primary-text-color);
 }
 
@@ -126,23 +127,21 @@ ul{
 }
 /* Button */
 .button{
-    font-weight: 700;
+    font-family: 'Roboto';
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1.88;
-    display: flex;
-    align-items: center;
+    line-height: 1.62;      
     text-align: center;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.03em;    
     color: #FFFFFF;
-    background-color:#2196F3;
-}
+    }
 .button.primary{
     color: #FFFFFF;
     background-color: #2196F3;
 }
 .button.secondary{
     color: var(--primary-text-color);
-    background-color: #F5F4FA;
+    background-color:#F5F4FA;;
 }
 
 /* ПОРТФОЛИО */
