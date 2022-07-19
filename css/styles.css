@@ -1,7 +1,6 @@
 root{
     --primary-text-color: #212121;
-    --title-text-color: #757575;
-}
+    }
 body{
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;    
@@ -131,11 +130,23 @@ ul{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;      
-    text-align: center;
-    letter-spacing: 0.03em;    
+    letter-spacing: 0.03em;
+    cursor: pointer;    
     color: #FFFFFF;
     }
-.button.primary{
+.button-hero{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;  
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    color: #FFFFFF;   
+}    
+.button.primary,
+.button-hero.primary{
     color: #FFFFFF;
     background-color: #2196F3;
 }
