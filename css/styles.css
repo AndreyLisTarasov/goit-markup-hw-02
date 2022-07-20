@@ -1,8 +1,9 @@
-root{
+:root{
     --primary-text-color: #212121;
-    }
+    --secondary-text-color: #757575;
+    --main-link-color: #2196F3; 
+}
 body{
-    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;    
     color: var(--primary-text-color);
 }
@@ -21,7 +22,7 @@ ul{
     color: #000;
 }
 .logo .text{
-    color: #2196F3;
+    color: var(--main-link-color);
 }
 .logo .other{
     color: #FFFFFF;
@@ -37,10 +38,10 @@ ul{
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
-    color: #2196F3;
+    color: var(--main-link-color);
 }
 .site-nav .link.current{
-    color: #2196F3;
+    color: var(--main-link-color);
 }
 /* Auth-nav */
 .auth-nav .link{
@@ -49,14 +50,16 @@ ul{
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: #757575;
+    color: var(--secondary-text-color)
 }
 .auth-nav .link:hover,
-.auth-nav .link:focus{
-    color:#2196F3;
+.auth-nav .link:focus,
+.address-list .link:hover,
+.address-list .link:focus{
+    color: var(--main-link-color);
 } 
 .auth-nav .link.current{
-    color: #2196F3;
+    color: var(--main-link-color);
 }
 /* Hero */
 .hero{    
@@ -78,6 +81,9 @@ ul{
     letter-spacing: 0.03em;
     text-align: center;
 }
+.hidden{
+    visibility: hidden;
+}
 /* Feature */
 .feature-list .title{
     font-size: 14px;
@@ -89,7 +95,7 @@ ul{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color:#757575;
+    color: var(--secondary-text-color);
 }
 /* Specialization */
 
@@ -107,7 +113,7 @@ ul{
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--secondary-text-color);
 }
 /* Footer */
 .footer{
@@ -148,11 +154,23 @@ ul{
 .button.primary,
 .button-hero.primary{
     color: #FFFFFF;
-    background-color: #2196F3;
+    background-color: var(--main-link-color);
 }
 .button.secondary{
     color: var(--primary-text-color);
     background-color:#F5F4FA;;
+}
+.button.primary.link:hover,
+.button.primary.link:focus,
+.button-hero.primary.link:hover,
+.button-hero.primary.link:focus{
+    color: var(--primary-text-color);
+    background-color: #fff;
+}
+.button.secondary.link:hover,
+.button.secondary.link:focus{
+    color: #FFFFFF;
+    background-color: var(--main-link-color)
 }
 
 /* ПОРТФОЛИО */
@@ -167,5 +185,5 @@ ul{
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--secondary-text-color);
 }

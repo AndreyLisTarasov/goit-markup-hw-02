@@ -12,7 +12,7 @@
 </head>
 <body>
     <!-- Шапка сайта -->
-    <header>
+    <header class="header">
         <a href="" class="logo"><span class="text">Web</span>Studio</a>
         <nav>
             <ul class="site-nav">
@@ -37,22 +37,16 @@
         </ul>
     </header>
     <!-- Тело сайта -->
-    <main>
-        <h1 class="section-title">Портфолио</h1>
+    <main class="main">        
         <!-- Фильтры -->
         <section class="section">
-         <h2 class="section-title">Фильтры</h2>
-         <ul>
-            <li><button type="button" class="button primary">Все</button></li>
-            <li><button type="button" class="button secondary">Веб-сайты</button></li>
-            <li><button type="button" class="button secondary">Приложения</button></li>
-            <li><button type="button" class="button secondary">Дизайн</button></li>
-            <li><button type="button" class="button secondary">Маркетинг</button></li>
-         </ul>       
-        </section>
-        <!-- Проэкты -->
-        <section class="section">
-            <h2 class="section-title">Проэкты</h2>
+            <h1 class="hidden">Портфолио</h1>
+            <ul class="button-list">
+                <li><button type="button" class="button primary link">Все</button></li>
+                <li><button type="button" class="button secondary link">Веб-сайты</button></li>
+                <li><button type="button" class="button secondary link">Приложения</button></li>
+                <li><button type="button" class="button secondary link">Дизайн</button></li>
+                <li><button type="button" class="button secondary link">Маркетинг</button></li>
             <ul class="project-list">
                 <li>
                     <img src="./images/project-1.jpg" alt="ноутбук" width="370" height="294">
@@ -98,9 +92,9 @@
                     <img src="./images/project-9.jpg" alt="работа за ноутбуком" width="370" height="294">
                     <h3 class="title" lang="en">Growing Business</h3>
                     <p class="text">Приложение</p>
-                </li>
-            </ul>
-        </section>
+                </li>    
+                </ul>
+            </section>
     </main>
     <!-- Подвал -->
     <footer class="footer">       
