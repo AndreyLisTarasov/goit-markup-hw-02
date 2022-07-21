@@ -11,6 +11,20 @@ body{
 ul{
     list-style: none;
     }
+    
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /*Logo*/
 .logo{
     font-family: 'Raleway', sans-serif;
@@ -132,7 +146,7 @@ ul{
 }
 /* Button */
 .button{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;      
@@ -141,7 +155,7 @@ ul{
     color: #FFFFFF;
     }
 .button-hero{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;  
@@ -187,3 +201,4 @@ ul{
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
+
